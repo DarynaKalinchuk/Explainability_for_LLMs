@@ -11,3 +11,5 @@ RUN pip install --no-cache-dir \
     accelerate==0.30.0
 
 CMD ["python3"]
+
+LABEL org.opencontainers.image.source="https://github.com/DarynaKalinchuk/Explainability_for_LLMs"
